@@ -274,7 +274,6 @@ public class Todo extends javax.swing.JFrame {
         );
 
         jMod.setMinimumSize(new java.awt.Dimension(415, 275));
-        jMod.setPreferredSize(new java.awt.Dimension(415, 275));
         jMod.setResizable(false);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
@@ -351,7 +350,7 @@ public class Todo extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jDodaj.setBackground(new java.awt.Color(0, 204, 0));
-        jDodaj.setText("Dodaj");
+        jDodaj.setText("DODAJ");
         jDodaj.setMaximumSize(new java.awt.Dimension(87, 25));
         jDodaj.setMinimumSize(new java.awt.Dimension(87, 25));
         jDodaj.addActionListener(new java.awt.event.ActionListener() {
@@ -360,8 +359,8 @@ public class Todo extends javax.swing.JFrame {
             }
         });
 
-        jUsun.setBackground(new java.awt.Color(204, 0, 0));
-        jUsun.setText("Usuń");
+        jUsun.setBackground(new java.awt.Color(255, 0, 0));
+        jUsun.setText("USUŃ");
         jUsun.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jUsunActionPerformed(evt);
@@ -369,7 +368,7 @@ public class Todo extends javax.swing.JFrame {
         });
 
         jModyfikuj.setBackground(new java.awt.Color(255, 204, 0));
-        jModyfikuj.setText("Wyświetl");
+        jModyfikuj.setText("WYŚWIETL");
         jModyfikuj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jModyfikujActionPerformed(evt);
@@ -377,7 +376,7 @@ public class Todo extends javax.swing.JFrame {
         });
 
         jZamknij.setBackground(new java.awt.Color(255, 0, 102));
-        jZamknij.setText("Zamknij");
+        jZamknij.setText("ZAMKNIJ");
         jZamknij.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jZamknijActionPerformed(evt);
@@ -391,7 +390,7 @@ public class Todo extends javax.swing.JFrame {
         jLabel2.setText("Notatki");
 
         jZapisz.setBackground(new java.awt.Color(0, 51, 255));
-        jZapisz.setText("Zapisz");
+        jZapisz.setText("ZAPISZ");
         jZapisz.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jZapiszActionPerformed(evt);
@@ -399,7 +398,7 @@ public class Todo extends javax.swing.JFrame {
         });
 
         jUstawienia.setBackground(new java.awt.Color(51, 153, 255));
-        jUstawienia.setText("Ustawienia");
+        jUstawienia.setText("USTAWIENIA");
         jUstawienia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jUstawieniaActionPerformed(evt);
